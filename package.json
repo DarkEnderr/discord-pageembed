@@ -1,0 +1,60 @@
+{
+  "name": "discord-pageembed",
+  "version": "13.6.0",
+  "description": "A pagination utility for MessageEmbed in Discord.JS",
+  "main": "./bin/index.js",
+  "types": "./typings",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "scripts": {
+    "test": "gulp",
+    "test:build": "gulp build",
+    "test:bot": "node ./test/bot.js",
+    "dev:start": "nodemon ./test/bot.js --config .nodemon.json",
+    "dev:watch": "tsc -p . --watch",
+    "dev:gulp-watch": "gulp watch",
+    "docs:parse": "npm run gh:build -- --json ./bin/docs.json",
+    "gh:build": "typedoc",
+    "prepublishOnly": "npm test",
+    "pub": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkEnderr/discord-pageembed"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "pagination",
+    "embed",
+    "paginationembed",
+    "emoji",
+    "react",
+    "leaderboard"
+  ],
+  "author": "gazmull",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gazmull/discord-paginationembed/issues"
+  },
+  "homepage": "https://github.com/gazmull/discord-paginationembed#readme",
+  "peerDependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "del": "^5.0.0",
+    "discord.js": "^13.6.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint7": "^0.3.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typedoc": "^0.20.30",
+    "typedoc-neo-theme": "^1.1.0",
+    "typedoc-plugin-no-inherit": "^1.2.2",
+    "typescript": "^4.2.3"
+  }
+}

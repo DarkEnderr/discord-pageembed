@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 12
+install: yarn
+before_script:
+  - yarn add discord.js@12 --peer
+jobs:
+  include:
+    - stage: deploy
+      script: bash ./deploy/travis.sh
+cache:
+  directories:
+    - node_modules
+sudo: false

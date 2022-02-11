@@ -1,0 +1,12 @@
+# NPM and Yarn
+node_modules/
+yarn-error.log
+yarn.lock
+
+# Tests
+*.tsbuildinfo
+test/credentials.js
+docs
+
+# Node
+report.*

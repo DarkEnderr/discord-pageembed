@@ -18,11 +18,11 @@ A pagination utility for MessageEmbed in Discord.JS
 - ✔ **Typings** included
 - ✔ **[Documentation]** for online references
 - ✔ **Asynchronous** workflow
-- ✔ Supports [Discord.JS **12**](https://discord.js.org "Go to Discord.JS Documentation")
+- ✔ Supports [Discord.JS **13**](https://discord.js.org "Go to Discord.JS Documentation")
 - ❔ Nothing found within docs or need a nudge? You may visit the [**Discord server**](https://discord.gg/eDUzT87)
 
 ## 🛠 Installation
-- **Requires Discord.JS 12**: `npm install discord.js`
+- **Requires Discord.JS 13**: `npm install discord.js`
 - **PaginationEmbed**:
     - **Published**: `npm install discord-paginationembed@beta`
     - **Unpublished**: `npm install gazmull/discord-paginationembed`
